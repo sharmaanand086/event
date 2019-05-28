@@ -11,8 +11,8 @@
 	error_reporting(0);
 	
 	$merchant_data='6017';
-	$working_key='7F0D3613357345F3F66343725F33E4B7';//Shared by CCAVENUES
-	$access_code='AVYF85GE53BW67FYWB';//Shared by CCAVENUES
+	$working_key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxx';//Shared by CCAVENUES
+	$access_code='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';//Shared by CCAVENUES
 	
 	foreach ($_POST as $key => $value){
 		$merchant_data.=$key.'='.$value.'&';
